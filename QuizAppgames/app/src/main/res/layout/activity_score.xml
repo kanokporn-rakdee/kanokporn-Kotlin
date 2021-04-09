@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".Score">
+
+    <TextView
+        android:id="@+id/tv_score_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Score"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/iv.people"
+        android:layout_width="160dp"
+        android:layout_height="131dp"
+        android:contentDescription="image"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_people" />
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Score number"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/white"
+        android:text="Return to main"
+        android:textColor="#B982EA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
